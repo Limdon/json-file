@@ -1,0 +1,1851 @@
+{
+  "namespace": "how_to_play",
+  "how_to_play_screen@how_to_play_common.screen_base": {
+    "$selector_stack_panel": "how_to_play.selector_stack_panel",
+    "$section_content_panels": "how_to_play.section_content_panels"
+  },
+  "selector_stack_panel": {
+    "type": "stack_panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "orientation": "vertical",
+    "$default_selector_toggle_index": 2,
+    "controls": [
+      {
+        "how_to_play_selector_pane": {
+          "type": "stack_panel",
+          "controls": [
+            {
+              "padding_0": {
+                "type": "panel",
+                "size": [
+                  0,
+                  6
+                ]
+              }
+            },
+            {
+              "credits_category@how_to_play_common.topic_category": {
+                "$category": "credits"
+              }
+            },
+            {
+              "keyyard_button@how_to_play.keyyard_button": {
+                "$toggle_group_forced_index": 1
+              }
+            },
+            {
+              "detail_category@how_to_play_common.topic_category": {
+                "$category": "detail"
+              }
+            },
+            {
+              "ender_button@how_to_play.ender_button": {
+                "$toggle_group_forced_index": 2
+              }
+            },
+            {
+              "getmoney_button@how_to_play.getmoney_button": {
+                "$toggle_group_forced_index": 3
+              }
+            },
+            {
+              "gettool_button@how_to_play.gettool_button": {
+                "$toggle_group_forced_index": 4
+              }
+            },
+            {
+              "getbox_button@how_to_play.getbox_button": {
+                "$toggle_group_forced_index": 5
+              }
+            },
+            {
+              "fasttravel_button@how_to_play.fasttravel_button": {
+                "$toggle_group_forced_index": 6
+              }
+            },
+            {
+              "community_button@how_to_play.community_button": {
+                "$toggle_group_forced_index": 7
+              }
+            },
+            {
+              "dungeon_button@how_to_play.dungeon_button": {
+                "$toggle_group_forced_index": 8
+              }
+            },
+            {
+              "newelement_category@how_to_play_common.topic_category": {
+                "$category": "newelement"
+              }
+            },
+            {
+              "rupy_button@how_to_play.rupy_button": {
+                "$toggle_group_forced_index": 9
+              }
+            },
+            {
+              "hpmp_button@how_to_play.hpmp_button": {
+                "$toggle_group_forced_index": 10
+              }
+            },
+            {
+              "blue_stone_button@how_to_play.blue_stone_button": {
+                "$toggle_group_forced_index": 11
+              }
+            },
+            {
+              "villager_button@how_to_play.villager_button": {
+                "$toggle_group_forced_index": 12
+              }
+            },
+            {
+              "magic_button@how_to_play.magic_button": {
+                "$toggle_group_forced_index": 13
+              }
+            },
+            {
+              "weapontype_button@how_to_play.weapontype_button": {
+                "$toggle_group_forced_index": 14
+              }
+            },
+            {
+              "armortype_button@how_to_play.armortype_button": {
+                "$toggle_group_forced_index": 15
+              }
+            },
+            {
+              "attribute_button@how_to_play.attribute_button": {
+                "$toggle_group_forced_index": 16
+              }
+            },
+            {
+              "compression_button@how_to_play.compression_button": {
+                "$toggle_group_forced_index": 17
+              }
+            },
+            {
+              "cut_block_button@how_to_play.cut_block_button": {
+                "$toggle_group_forced_index": 19
+              }
+            },
+            {
+              "horse_button@how_to_play.horse_button": {
+                "$toggle_group_forced_index": 20
+              }
+            },
+            {
+              "tsuriesa_button@how_to_play.tsuriesa_button": {
+                "$toggle_group_forced_index": 21
+              }
+            },
+            {
+              "newbiome_button@how_to_play.newbiome_button": {
+                "$toggle_group_forced_index": 22
+              }
+            },
+            {
+              "entities_category@how_to_play_common.topic_category": {
+                "$category": "entities"
+              }
+            },
+            {
+              "search_recipe@how_to_play.search_recipe_button": {
+                "$toggle_group_forced_index": 23
+              }
+            },
+            {
+              "item_button@how_to_play.item_button": {
+                "$toggle_group_forced_index": 24
+              }
+            },
+            {
+              "weapon_button@how_to_play.weapon_button": {
+                "$toggle_group_forced_index": 25
+              }
+            },
+            {
+              "smg_button@how_to_play.smg_button": {
+                "$toggle_group_forced_index": 26
+              }
+            },
+            {
+              "rifle_button@how_to_play.rifle_button": {
+                "$toggle_group_forced_index": 27
+              }
+            },
+            {
+              "sniper_button@how_to_play.sniper_button": {
+                "$toggle_group_forced_index": 28
+              }
+            },
+            {
+              "dmr_button@how_to_play.dmr_button": {
+                "$toggle_group_forced_index": 29
+              }
+            },
+            {
+              "etc_button@how_to_play.etc_button": {
+                "$toggle_group_forced_index": 30
+              }
+            },
+            {
+              "supplementaryinformation_button@how_to_play.supplementaryinformation_button": {
+                "$toggle_group_forced_index": 31
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "section_content_panels": {
+    "type": "stack_panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100% - 5px",
+      "100%c + 5px"
+    ],
+    "offset": [
+      2,
+      0
+    ],
+    "controls": [
+      {
+        "general_tips_sections": {
+          "type": "stack_panel",
+          "controls": [
+            {
+              "section_contents_header@how_to_play_common.section_contents_header": {}
+            },
+            {
+              "keyyard_section@how_to_play.keyyard_section": {}
+            },
+            {
+              "ender_section@how_to_play.ender_section": {}
+            },
+            {
+              "getmoney_section@how_to_play.getmoney_section": {}
+            },
+            {
+              "gettool_section@how_to_play.gettool_section": {}
+            },
+            {
+              "getbox_section@how_to_play.getbox_section": {}
+            },
+            {
+              "fasttravel_section@how_to_play.fasttravel_section": {}
+            },
+            {
+              "community_section@how_to_play.community_section": {}
+            },
+            {
+              "dungeon_section@how_to_play.dungeon_section": {}
+            },
+            {
+              "rupy_section@how_to_play.rupy_section": {}
+            },
+            {
+              "hpmp_section@how_to_play.hpmp_section": {}
+            },
+            {
+              "blue_stone_section@how_to_play.blue_stone_section": {}
+            },
+            {
+              "villager_section@how_to_play.villager_section": {}
+            },
+            {
+              "magic_section@how_to_play.magic_section": {}
+            },
+            {
+              "weapontype_section@how_to_play.weapontype_section": {}
+            },
+            {
+              "armortype_section@how_to_play.armortype_section": {}
+            },
+            {
+              "attribute_section@how_to_play.attribute_section": {}
+            },
+            {
+              "compression_section@how_to_play.compression_section": {}
+            },
+            {
+              "cut_block_section@how_to_play.cut_block_section": {}
+            },
+            {
+              "horse_section@how_to_play.horse_section": {}
+            },
+            {
+              "tsuriesa_section@how_to_play.tsuriesa_section": {}
+            },
+            {
+              "newbiome_section@how_to_play.newbiome_section": {}
+            },
+            {
+              "search_recipe_section@how_to_play.search_recipe_section": {}
+            },
+            {
+              "item_section@how_to_play.item_section": {}
+            },
+            {
+              "weapon_section@how_to_play.weapon_section": {}
+            },
+            {
+              "smg_section@how_to_play.smg_section": {}
+            },
+            {
+              "rifle_section@how_to_play.rifle_section": {}
+            },
+            {
+              "sniper_section@how_to_play.sniper_section": {}
+            },
+            {
+              "dmr_section@how_to_play.dmr_section": {}
+            },
+            {
+              "etc_section@how_to_play.etc_section": {}
+            },
+            {
+              "supplementaryinformation@how_to_play.supplementaryinformation_section": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "keyyard_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "keyyard"
+  },
+  "keyyard_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "keyyard_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f3@how_to_play_common.header": {
+          "$text": "§lはじめに"
+        }
+      },
+      {
+        "paragraph_f208@how_to_play_common.paragraph": {
+
+          "$text": "基本的なルール\n\n最低限ここに書かれていることは守る必用があるが\n何かわからないことやトラブルがあったら配信者や班長に相談すること！！\n\n§c§l・他人のチェストは開けない、他人の家には入らないこと\n・自分の所有物には看板を設置する事\n・貴重品は必ずシュルカーやエンダーチェストに入れること\n・ワールドに高負荷なことはしない事\n\n(クロック回路、自動装置、ピストン、氷上歩行、たいまつの使用、過度なワールドの拡大(原則座標±3000マス以内で散策する事)など)"
+        }
+      },
+      {
+        "padding_f28@how_to_play_common.padding": {}
+      },
+      {
+        "padding_f109@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f502@how_to_play_common.paragraph": {
+
+          "$text": "§c§lちく鯖で廃止した機能 §c§l 1.ネザーとエンドは封鎖します 2.鉄以上のツールはクラフトできない"
+        }
+      },
+      {
+        "padding_f19@how_to_play_common.padding": {}
+      },
+      {
+        "header_f13@how_to_play_common.header": {
+          "$text": "§lちく鯖Discordの説明"
+        }
+      },
+      {
+        "paragraph_f13@how_to_play_common.paragraph": {
+
+          "$text": "§d§lDiscordにおいてはプレイヤー対プレイヤーで取引できるように運営している！"
+        }
+      },
+      {
+        "padding_f4@how_to_play_common.padding": {}
+      },
+      {
+        "imagsse_b100@how_to_play_common.image": {
+          "texture": "textures\/ui\/discord",
+          "size": [
+            "25%",
+            "100px"
+          ]
+        }
+      },
+      {
+        "paragraph_f14@how_to_play_common.paragraph": {
+          "$text": "§b§l1.交易所"
+        }
+      },
+      {
+        "paragraph_f15@how_to_play_common.paragraph": {
+
+          "$text": "基本的にはここで自分が売りに出したい物を入力する！\nもちろんここに出品している物もメッセージを通じて購入することができるぞ！"
+        }
+      },
+      {
+        "paragraph_f16@how_to_play_common.paragraph": {
+          "$text": "§b§l2.取引用"
+        }
+      },
+      {
+        "paragraph_f17@how_to_play_common.paragraph": {
+
+          "$text": "交易所での取引用のやり取りメッセージ欄として活用してほしい！"
+        }
+      },
+      {
+        "paragraph_f18@how_to_play_common.paragraph": {
+          "$text": "§b§l3.オークション用"
+        }
+      },
+      {
+        "paragraph_f19@how_to_play_common.paragraph": {
+
+          "$text": "オークション制でアイテムを競り落として手に入れる場所だ！鯖民が出来るだけ高い値段でアイテムを売りたいときに使う傾向があるので、見る頻度を多めにすると目玉商品に出会えるかも!?"
+        }
+      },
+      {
+        "padding_thanks301@how_to_play_common.padding": {}
+      }
+    ]
+  },
+  "ender_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "ender"
+  },
+  "ender_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "ender_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f4@how_to_play_common.header": {
+          "$text": "§l全体の流れ"
+        }
+      },
+      {
+        "paragraph_f3@how_to_play_common.paragraph": {
+          "$text": "§b§l生活の手引き\n\n§b§l1.ツールをそろえる\n\n§b§l2.ルピーを手に入れる\n\n§b§l3.シェルカーボックスとエンダーチェストを手に入れる\n\n§b§l4.移動系アイテムを手に入れる\n\n§b§l5.班員と仲良くする\n\n§b§l6.追加バイオームを探索する"
+        }
+      },
+      {
+        "padding_f4@how_to_play_common.padding": {}
+      }
+    ]
+  },
+  "gettool_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "gettool"
+  },
+  "gettool_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "gettool_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f6@how_to_play_common.header": {
+          "$text": "§l1.ツールをそろえる"
+        }
+      },
+      {
+        "paragraph_f6@how_to_play_common.paragraph": {
+
+          "$text": "石ツールまではクラフトすることができますが、§d§l鉄以上のツールはガチャやDiscordの必需品販売店や交易所で入手する方法があります(｀･ω･´)\n稼いだルピーを活用してツールを手に入れよう！\n\n§d§lまた、エンチャントテーブルも作る事は出来ません！"
+
+        }
+      },
+      {
+        "imagsse_b61@how_to_play_common.image": {
+          "texture": "textures\/ui\/making",
+          "size": [
+            "100%",
+            "200px"
+          ]
+        }
+      }
+    ]
+  },
+  "getmoney_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "getmoney"
+  },
+  "getmoney_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "getmoney_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f7@how_to_play_common.header": {
+          "$text": "§l2.ルピーを手に入れる"
+        }
+      },
+      {
+        "imagsse_b9@how_to_play_common.image": {
+          "texture": "textures\/ui\/gacya",
+          "size": [
+            "100%",
+            "200px"
+          ]
+        }
+      },
+      {
+        "paragraph_f7@how_to_play_common.paragraph": {
+
+          "$text": "§b§lどうやって稼ぐの？？,\n\n→§d§lまずは木こり、ブランチマイニング(露天掘り)、洞窟探索、釣り等に挑戦すると稼ぐことができる。それらで採取した木や石は初期リスポーン地点にいる村人と取引することによってルピーに換金できる！\n§r慣れてきたら商売や狩りに挑戦するが良し。\n\n§b§l何に使うの?\n\n→§d§l村人や行商人から買い物したり、ガチャを購入したり、他人との取引にも使える。\n\n§b§l換金したいんだけど！！\n\n→§d§lクラフトテーブルに乗っけると換金できる。"
+
+        }
+      },
+      {
+        "header_f11@how_to_play_common.header": {
+          "$text": "§lガチャの説明"
+        }
+      },
+      {
+        "imagsse_b47@how_to_play_common.image": {
+          "texture": "textures\/ui\/gacya1",
+          "size": [
+            "100%",
+            "200px"
+          ]
+        }
+      },
+      {
+        "paragraph_f11@how_to_play_common.paragraph": {
+
+          "$text": "§d§l初期リス地点や班が所持している村人からガチャを購入できるぞ！§r\n\nガチャの内容はサバイバルでは入手できない鉄やダイヤツール等が含まれている！\n\nガチャは★の個数で上位のアイテムがあたる仕組みだ\n\n§d§lガチャは一定の時間で中身が変わるのでよく確認すべし§r!\n\n§lすべては!!君の!!運しだいだ!!"
+
+        }
+      },
+      {
+        "imagsse_b48@how_to_play_common.image": {
+          "texture": "textures\/ui\/gacya2",
+          "size": [
+            "100%",
+            "200px"
+          ]
+        }
+      }
+    ]
+  },
+  "getbox_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "getbox"
+  },
+  "getbox_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "getbox_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f8@how_to_play_common.header": {
+          "$text": "§l3.シェルカーボックスとエンダーチェストを手に入れる"
+        }
+      },
+      {
+        "image_f7@how_to_play_common.image": {
+          "texture": "textures\/ui\/syuruka",
+          "size": [
+            "100%",
+            "200px"
+          ]
+        }
+      },
+      {
+        "paragraph_f8@how_to_play_common.paragraph": {
+
+          "$text": "§d§lシェルカーボックスはショップから購入することができる！\n\n§d§lこの２つを手に入れる目的としては§c§lサーバー内でのアイテム盗難防止のため。§r\n\nシェルカーボックスはインベントリの場所節約にとても有効。\n§d§lエンダーチェストにシェルカーボックスを収納することでより多くの物を他人に取られずに済むのでこれら2つは優先的に手に入れたい。"
+        }
+      },
+      {
+        "image_f8@how_to_play_common.image": {
+          "texture": "textures\/ui\/ender",
+          "size": [
+            "100%",
+            "200px"
+          ]
+        }
+      }
+    ]
+  },
+  "fasttravel_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "fasttravel"
+  },
+  "fasttravel_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "fasttravel_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f9@how_to_play_common.header": {
+          "$text": "§l4.移動系アイテムを手に入れる"
+        }
+      },
+      {
+        "imagsse_b78@how_to_play_common.image": {
+          "texture": "textures\/ui\/fasttravel",
+          "size": [
+            "100%",
+            "200px"
+          ]
+        }
+      },
+      {
+        "paragraph_f9@how_to_play_common.paragraph": {
+
+          "$text": "このサーバーは初期スポーン地点からから班まで、また班から班までと移動する機会が多く、片道500マス掛かる場合もあるため§d§l出来るだけ早い段階で移動系アイテムを手に入れたい。§r\n移動アイテムは\n\n§d§l角笛\n\n疾風の羽\n\nエリトラ§rの３つ。\n\n移動系アイテムの一覧は追加アイテム一覧から確認してください！！"
+        }
+      },
+      {
+        "padding_f21@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f21@how_to_play_common.paragraph": {
+
+          "$text": "§d§l角笛"
+        }
+      },
+      {
+        "imagsse_b46@how_to_play_common.image": {
+          "texture": "textures\/ui\/yellow_bone_horn",
+          "size": [
+            "100%",
+            "100px"
+          ]
+        }
+      },
+      {
+        "paragraph_f22@how_to_play_common.paragraph": {
+
+          "$text": "§d§l疾風の羽"
+        }
+      },
+      {
+        "imagsse_b47@how_to_play_common.image": {
+          "texture": "textures\/ui\/light_blue_feather",
+          "size": [
+            "100%",
+            "100px"
+          ]
+        }
+      },
+      {
+        "paragraph_f29@how_to_play_common.paragraph": {
+
+          "$text": "§d§lエリトラ"
+        }
+      },
+      {
+        "imagsse_b48@how_to_play_common.image": {
+          "texture": "textures\/ui\/elytra",
+          "size": [
+            "100%",
+            "100px"
+          ]
+        }
+      }
+    ]
+  },
+  "community_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "community"
+  },
+  "community_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "community_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f10@how_to_play_common.header": {
+          "$text": "§l5.班員と仲良くする"
+        }
+      },
+      {
+        "paragraph_f10@how_to_play_common.paragraph": {
+
+          "$text": "この鯖では「班」の要素を独自で追加している。班の中で建築物・街を立てる等の目標を立ててそれに取り組んでいく。\n班によってまったりな雰囲気で進んでいるところや活発にやっているところもあるので興味ある班にどんどん参加してみよう。,"
+
+        }
+      }
+    ]
+  },
+  "dungeon_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "dungeon"
+  },
+  "dungeon_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "dungeon_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f11@how_to_play_common.header": {
+          "$text": "§l6.追加バイオームを探索する"
+        }
+      },
+      {
+        "paragraph_f11@how_to_play_common.paragraph": {
+
+          "$text": "ちく鯖で生活するにあたり特定のアイテムは追加バイオームでとれる素材からクラフトしなければならない。\n\n\n普通のサバイバルでは味わうことのできない楽しみをあなたに。"
+        }
+      }
+    ]
+  },
+  "rupy_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "rupy"
+  },
+  "rupy_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "rupy_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f35@how_to_play_common.header": {
+          "$text": "§lルピー"
+        }
+      },
+      {
+        "paragraph_f35@how_to_play_common.paragraph": {
+
+          "$text": "§d§lこのサーバーの独自貨幣としてルピーが使われている！§rこれを使うことによって物の売買やガチャの代金になる！\n\n§d§lルピーの種類は4種類あり、§r\n§a§l緑色のルピーが１ルピー\n§c§l赤色が5ルピー\n§b§l青色が20ルピー\n§d§l紫色が100ルピーとなっている！"
+
+        }
+      },
+      {
+        "padding_f32@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f36@how_to_play_common.paragraph": {
+
+          "$text": "§a§l1ルピー"
+        }
+      },
+      {
+        "image_f4@how_to_play_common.image": {
+          "texture": "textures\/ui\/1rupy",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "paragraph_f37@how_to_play_common.paragraph": {
+
+          "$text": "§c§l5ルピー"
+        }
+      },
+      {
+        "image_f5@how_to_play_common.image": {
+          "texture": "textures\/ui\/5rupy",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "paragraph_f38@how_to_play_common.paragraph": {
+
+          "$text": "§b§l20ルピー"
+        }
+      },
+      {
+        "image_f6@how_to_play_common.image": {
+          "texture": "textures\/ui\/20rupy",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "paragraph_f39@how_to_play_common.paragraph": {
+
+          "$text": "§d§l100ルピー"
+        }
+      },
+      {
+        "image_f7@how_to_play_common.image": {
+          "texture": "textures\/ui\/100rupy",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "header_f40@how_to_play_common.header": {
+          "$text": "両替"
+        }
+      },
+      {
+        "paragraph_f40@how_to_play_common.paragraph": {
+
+          "$text": "§d§l作業台で両替したいルピーを並べてクラフトすることでルピーを両替することができる！\n\n例.1ルピーを5つ作業台に並べて5ルピーをクラフトする\n 100ルピーを作業台に置くことで20ルピーを5個クラフトする"
+        }
+      }
+    ]
+  },
+  "hpmp_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "hpmp"
+  },
+  "hpmp_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "hpmp_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f62@how_to_play_common.header": {
+          "$text": "§lHP"
+        }
+      },
+      {
+        "padding_f17@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f30@how_to_play_common.paragraph": {
+
+          "$text": "§d§lちく鯖ではHP10(ハート5個)に設定されている！\n\nHPの上限を上げるにはハートの器を使うことで一定数値までハートを上げることができる！\n\n§c§lハートの器(赤)の場合HP20(ハート10個)まで\n§b§lハートの器(青)の場合HP40(ハート20個)まで(ただしHP20｟ハート10個｠をすでに獲得していなければ使用することはできない)"
+        }
+      },
+      {
+        "image_f7@how_to_play_common.image": {
+          "texture": "textures\/ui\/detailofheart",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "header_f11@how_to_play_common.header": {
+          "$text": "§lMP"
+        }
+      },
+      {
+        "paragraph_f11@how_to_play_common.paragraph": {
+
+          "$text": "MPが独自にちく鯖では導入されているぞ！§d§lMPの獲得方法としてはエーテルを使うことで獲得(回復)することができる！§r\n\n獲得できるMPはエーテルの種類によって変わる。\n\n§l一番獲得量が少ないのは§b§lエーテル§rで、§a§lミドルエーテル§r、§c§lハイパーエーテル、§d§lウルトラエーテル§rとなるにつれてMP獲得量が上がっていく。\n\n§5§lアンリミテッドエーテルは自分のMP獲得限界量を増やすことができる。§r\n\nエーテルの入手方法はエーテルガチャで手に入れることができる！"
+
+        }
+      },
+      {
+        "paragraph_f70@how_to_play_common.paragraph": {
+
+          "$text": "§lエーテルの種類"
+        }
+      },
+      {
+        "paragraph_f31@how_to_play_common.paragraph": {
+
+          "$text": "\n§b§l1.エーテル"
+        }
+      },
+      {
+        "image_f1@how_to_play_common.image": {
+          "texture": "textures\/ui\/mp_potion",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "paragraph_f32@how_to_play_common.paragraph": {
+
+          "$text": "\n§a§l2.ミドルエーテル"
+        }
+      },
+      {
+        "image_f2@how_to_play_common.image": {
+          "texture": "textures\/ui\/middle_mp_potion",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "paragraph_f33@how_to_play_common.paragraph": {
+
+          "$text": "\n§c§l3.ハイパーエーテル"
+        }
+      },
+      {
+        "image_f3@how_to_play_common.image": {
+          "texture": "textures\/ui\/hyper_mp_potion",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "paragraph_f156@how_to_play_common.paragraph": {
+
+          "$text": "\n§c§l3.ウルトラエーテル"
+        }
+      },
+      {
+        "image_f156@how_to_play_common.image": {
+          "texture": "textures\/ui\/ultra_mp_potion",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "paragraph_f34@how_to_play_common.paragraph": {
+
+          "$text": "\n§5§l4.アンリミテッドエーテル"
+        }
+      },
+      {
+        "image_f4@how_to_play_common.image": {
+          "texture": "textures\/ui\/ex_mp_potion",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      }
+    ]
+  },
+  "blue_stone_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "blue_stone"
+  },
+  "blue_stone_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "blue_stone_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f81@how_to_play_common.header": {
+          "$text": "§lリスポーン地点設定"
+        }
+      },
+      {
+        "paragraph_f81@how_to_play_common.paragraph": {
+
+          "$text": "§d§lリスポーン地点を設定できるアイテムはベッドとブルーストーンが存在する"
+        }
+      },
+      {
+        "paragraph_f83@how_to_play_common.paragraph": {
+
+          "$text": "§d§lベッドの使用法は従来通り!"
+        }
+      },
+      {
+        "header_f82@how_to_play_common.header": {
+          "$text": "§lブルーストーン"
+        }
+      },
+      {
+        "paragraph_f89@how_to_play_common.paragraph": {
+
+          "$text": "§d§lブルーストーンとは、§b§l自分が命を落とした際に復活できるリスポーン地点を設定することができるアイテムだ！\n\n§d§l使い方はいたって簡単でブルーストーンをインベントリで選択して\n\n§bPC勢なら右クリック、\n\n§aios,Android勢はタップするだけ！\n\n§d§lこれで次のリスポーン地点が設定される！"
+        }
+      },
+      {
+        "padding_f81@how_to_play_common.padding": {}
+      },
+      {
+        "image_f4@how_to_play_common.image": {
+          "texture": "textures\/ui\/blue_stone",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "padding_f82@how_to_play_common.padding": {}
+      }
+    ]
+  },
+  "villager_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "villager"
+  },
+  "villager_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "villager_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f11@how_to_play_common.header": {
+          "$text": "§lショップ"
+        }
+      },
+      {
+        "image_f90@how_to_play_common.image": {
+          "texture": "textures\/ui\/villager",
+          "size": [
+            "100%",
+            "100px"
+          ]
+        }
+      },
+      {
+        "paragraph_f11@how_to_play_common.paragraph": {
+
+          "$text": "§d§l初期リスポーン地点や班内にあるショップではアイテムからルピーに換金したり、ルピーを使ってアイテムを購入することができる！\n\n購入できるアイテムは、ネザーやエンドで生成されるブロックやガチャがある！ぜひ有効に使ってほしい！"
+        }
+      }
+    ]
+  },
+  "magic_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "magic"
+  },
+  "magic_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "magic_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f11@how_to_play_common.header": {
+          "$text": "§l魔法"
+        }
+      },
+      {
+        "padding_f52@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f101@how_to_play_common.paragraph": {
+
+          "$text": "§l魔法弓"
+        }
+      },
+      {
+        "imagsse_b46@how_to_play_common.image": {
+          "texture": "textures\/ui\/magic_bow_ice",
+          "size": [
+            "100%",
+            "200px"
+          ]
+        }
+      },
+      {
+        "paragraph_f11@how_to_play_common.paragraph": {
+
+          "$text": "§d§l星屑を消費することで対人＆対モブに対して大ダメージ・効果を与えることができる代物だ！"
+
+        }
+      },
+      {
+        "padding_f53@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f52@how_to_play_common.paragraph": {
+
+          "$text": "§c§l赤い星屑"
+        }
+      },
+      {
+        "padding_f54@how_to_play_common.padding": {}
+      },
+      {
+        "image_f56@how_to_play_common.image": {
+          "texture": "textures\/ui\/red_spirit",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "paragraph_f53@how_to_play_common.paragraph": {
+
+          "$text": "§c§l弓に爆破効果をつけて矢が着弾した際に周囲に爆発が起こる！"
+        }
+      },
+      {
+        "padding_f58@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f54@how_to_play_common.paragraph": {
+
+          "$text": "§b§l青い星屑"
+        }
+      },
+      {
+        "padding_f55@how_to_play_common.padding": {}
+      },
+      {
+        "image_f57@how_to_play_common.image": {
+          "texture": "textures\/ui\/blue_spirit",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "paragraph_f55@how_to_play_common.paragraph": {
+
+          "$text": "§b§l弓に氷の効果をつけて対象物を凍らせることができる！"
+        }
+      },
+      {
+        "padding_f57@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f51@how_to_play_common.paragraph": {
+
+          "$text": "§g§l黄色い星屑"
+        }
+      },
+      {
+        "padding_f56@how_to_play_common.padding": {}
+      },
+      {
+        "image_f58@how_to_play_common.image": {
+          "texture": "textures\/ui\/yellow_spirit",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "paragraph_f56@how_to_play_common.paragraph": {
+
+          "$text": "§g§l弓に雷の効果をつけて矢が着弾した場所に雷を降らす！"
+        }
+      }
+
+    ]
+  },
+  "weapontype_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "weapontype"
+  },
+  "weapontype_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "weapontype_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_K1@how_to_play_common.header": {
+          "$text": "§l新たに追加された武器"
+        }
+      },
+      {
+        "paragraph_K1@how_to_play_common.paragraph": {
+
+          "$text": "§d§l拡張機能として武器が5種類に大きく分類しているぞ"
+        }
+      },
+      {
+        "padding_k1@how_to_play_common.padding": {}
+      },
+      {
+        "header_k2@how_to_play_common.header": {
+          "$text": "§l武器の種類"
+        }
+      },
+      {
+        "padding_k2@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_k2@how_to_play_common.paragraph": {
+
+          "$text": "§a§l1.片手剣 属性を付ける事ができる！回転切りはできない \n\n§b§l2.大剣 属性を付けることはできないが、回転切りをすることができる！ \n\n§c§l3.大斧 属性を付ける事ができる！ 回転切りはできない！ \n\n§d§l4.通常杖 投擲攻撃ができる！\n\n§e§l5.上位杖 範囲攻撃ができる！"
+
+        }
+      },
+      {
+        "header_k3@how_to_play_common.header": {
+          "$text": "§l武器スキル(回転切り・杖スキル)の発動方法"
+        }
+      },
+      {
+        "padding_k3@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_K3@how_to_play_common.paragraph": {
+
+          "$text": "§d§l・PCの場合 右クリック\n\nios&Android スニークしながら画面タップ \n\nするとMPを消費してスキルを発動できる！"
+        }
+      },
+      {
+        "image_M1@how_to_play_common.image": {
+          "texture": "textures\/ui\/newskill",
+          "size": [
+            "100%",
+            "300px"
+          ]
+        }
+      }
+    ]
+
+  },
+  "armortype_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "armortype"
+  },
+  "armortype_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "armortype_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_K1@how_to_play_common.header": {
+          "$text": "§l新たに追加された防具"
+        }
+      },
+      {
+        "paragraph_K1@how_to_play_common.paragraph": {
+
+          "$text": "§d§l古代礫・近衛隊等、新しく追加された防具には属性スキルポイントが付与される。一つの属性に対してある一定数のスキルポイントを獲得すると、特定の属性に対しての耐久力の増減が発生するぞ！ \n\n例.§c炎属性§rがついた防具は§a樹§r、§b水§rの属性の攻撃に強く、ダメージを少なく抑えることができるが、§7黒炎属性§rの攻撃には弱く、大ダメージを受ける"
+        }
+      },
+      {
+        "padding_k1@how_to_play_common.padding": {}
+      },
+      {
+        "header_k2@how_to_play_common.header": {
+          "$text": "§l防具の入手・作成方法"
+        }
+      },
+      {
+        "padding_k2@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_k2@how_to_play_common.paragraph": {
+
+          "$text": ""
+        }
+      }
+    ]
+
+  },
+  "attribute_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "attribute"
+  },
+  "attribute_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "attribute_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_M1@how_to_play_common.header": {
+          "$text": "§lアイテム属性"
+        }
+      },
+      {
+        "padding_M10@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_M1@how_to_play_common.paragraph": {
+
+          "$text": "§a§lこのサーバーでは、追加されたモンスターやプレイヤーが作成する防具に対してに「属性」が新たに付与されている。\n属性値はある程度の数値を獲得した場合、武具でモンスターと戦闘する際には、属性の相性によってはモンスターに大ダメージを与えることができ、逆にモンスターからの攻撃の被害を減少させることができるようになるぞ！,"
+        }
+      },
+      {
+        "padding_M11@how_to_play_common.padding": {}
+      },
+      {
+        "image_M1@how_to_play_common.image": {
+          "texture": "textures\/ui\/getskill",
+          "size": [
+            "100%",
+            "200px"
+          ]
+        }
+      },
+      {
+        "padding_M12@how_to_play_common.padding": {}
+      },
+      {
+        "imagsse_M1@how_to_play_common.image": {
+          "texture": "textures\/ui\/detailofattribute",
+          "size": [
+            "100%",
+            "200px"
+          ]
+        }
+      },
+      {
+        "padding_M1@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_M2@how_to_play_common.paragraph": {
+          "$text": "1.§7§l黒炎 §c炎§rに有効 §3氷§rに弱点 \n\n2.§c炎 §a樹、§3氷§rに有効 §b水§rに弱点 \n\n3.§a樹 §b水、§6岩§rに有効 §c炎§rに弱点 \n\n4.§b水 §c炎、§6岩§rに有効 §a樹、§e雷§rに弱点 \n\n5.§6岩 §e雷、§f風§rに有効 §a樹、§b水§rに弱点 \n\n6.§e雷 §f風、§b水§rに有効、§7黒炎§rに弱点 \n\n7.§f風 §a樹、§3氷§rに有効、§6岩、§e雷§rに弱点 \n\n8.§3氷 §7黒煙§rに有効、§c炎、§f風§rに弱点"
+        }
+      },
+      {
+        "padding_M2@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_M3@how_to_play_common.paragraph": {
+
+          "$text": ""
+
+        }
+      }
+    ]
+
+  },
+  "compression_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "compression"
+  },
+  "compression_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "compression_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f27@how_to_play_common.header": {
+          "$text": "§lアイテム圧縮"
+        }
+      },
+      {
+        "imagsse_b70@how_to_play_common.image": {
+          "texture": "textures\/ui\/compress",
+          "size": [
+            "100%",
+            "200px"
+          ]
+        }
+      },
+      {
+        "paragraph_f27@how_to_play_common.paragraph": {
+
+          "$text": "§d§l特定のアイテム9個を圧縮ブロック1個に変換できる！§r\n\nこの機能はプレイヤーのインベントリ節約に大活躍！\n\nもちろん圧縮したブロックはもとに戻すことができる！\n\n§d§l圧縮できるブロック§r\n\n・石\n\n・丸石\n\n・石レンガ\n\n・原木全般\n\n・砂\n\n・食べ物"
+
+        }
+      },
+      {
+        "padding_f17@how_to_play_common.padding": {}
+      },
+      {
+        "header_f11@how_to_play_common.header": {
+          "$text": "§l圧縮の方法"
+        }
+      },
+      {
+        "imagsse_b47@how_to_play_common.image": {
+          "texture": "textures\/ui\/howto_compress",
+          "size": [
+            "100%",
+            "200px"
+          ]
+        }
+      },
+      {
+        "padding_f53@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f11@how_to_play_common.paragraph": {
+
+          "$text": "§d§l作業台を開けて９面すべてに特定のブロックを敷き詰めることで圧縮ブロックを一個作ることができるぞ！"
+
+        }
+      }
+    ]
+
+  },
+  "cut_block_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "cut_block"
+  },
+  "cut_block_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "cut_block_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f27@how_to_play_common.header": {
+          "$text": "§l縦半ブロックの作成"
+        }
+      },
+      {
+        "imagsse_b70@how_to_play_common.image": {
+          "texture": "textures\/ui\/compress",
+          "size": [
+            "100%",
+            "200px"
+          ]
+        }
+      },
+      {
+        "paragraph_f27@how_to_play_common.paragraph": {
+
+          "$text": "§d§l特定のアイテム9個を圧縮ブロック1個に変換できる！§r\n\nこの機能はプレイヤーのインベントリ節約に大活躍！\n\nもちろん圧縮したブロックはもとに戻すことができる！\n\n§d§l圧縮できるブロック§r\n\n・石\n\n・丸石\n\n・石レンガ\n\n・原木全般\n\n・砂\n\n・食べ物"
+
+        }
+      },
+      {
+        "padding_f17@how_to_play_common.padding": {}
+      },
+      {
+        "header_f11@how_to_play_common.header": {
+          "$text": "§l縦半ブロックの作成方法"
+        }
+      },
+      {
+        "imagsse_b47@how_to_play_common.image": {
+          "texture": "textures\/ui\/howto_compress",
+          "size": [
+            "100%",
+            "200px"
+          ]
+        }
+      },
+      {
+        "padding_f53@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f11@how_to_play_common.paragraph": {
+
+          "$text": "§d§lマイクラのバニラ機能で実装されているストーンカッターと作成方法は同じ！石、木材ブロックを使ってブロック１個分で縦半ブロック2個分を生成することができるぞ！"
+
+        }
+      }
+    ]
+
+  },
+  "horse_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "horse"
+  },
+  "horse_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "horse_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f11@how_to_play_common.header": {
+          "$text": "§l移動手段"
+        }
+      },
+      {
+        "paragraph_f11@how_to_play_common.paragraph": {
+
+          "$text": "§d§lMPを消費することで一定時間馬を召喚できるぞ！§r\n角笛にもグレードが存在し、グレードが変わると召喚される馬の色も変化する。グレードを上げる方法として作業台を使い、角笛+特定の材料でクラフトすることで上位の角笛を手に入れることができる！"
+
+        }
+      },
+      {
+        "padding_f21@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f21@how_to_play_common.paragraph": {
+
+          "$text": "§d§l角笛"
+        }
+      },
+      {
+        "imagsse_b46@how_to_play_common.image": {
+          "texture": "textures\/ui\/yellow_bone_horn",
+          "size": [
+            "100%",
+            "100px"
+          ]
+        }
+      },
+      {
+        "paragraph_f31@how_to_play_common.paragraph": {
+
+          "$text": "MPを消費することで速い速度の馬をスポーンさせて乗ることで高速移動ができる！（制限時間あり）"
+        }
+      },
+      {
+        "padding_f31@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f23@how_to_play_common.paragraph": {
+
+          "$text": "§d§l疾風の羽"
+        }
+      },
+      {
+        "imagsse_b47@how_to_play_common.image": {
+          "texture": "textures\/ui\/light_blue_feather",
+          "size": [
+            "100%",
+            "100px"
+          ]
+        }
+      },
+      {
+        "paragraph_f32@how_to_play_common.paragraph": {
+
+          "$text": "この羽を消費することで一定時間移動速度が向上する！"
+        }
+      },
+      {
+        "padding_f54@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f22@how_to_play_common.paragraph": {
+
+          "$text": "§d§lエリトラ"
+        }
+      },
+      {
+        "imagsse_b48@how_to_play_common.image": {
+          "texture": "textures\/ui\/elytra",
+          "size": [
+            "100%",
+            "100px"
+          ]
+        }
+      },
+      {
+        "paragraph_f33@how_to_play_common.paragraph": {
+
+          "$text": "§d§lエリトラは通常のサバイバルではレシピが異なるのでクラフトする際は注意されたし。"
+        }
+      }
+    ]
+  },
+  "tsuriesa_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "tsuriesa"
+  },
+  "tsuriesa_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "tsuriesa_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f11@how_to_play_common.header": {
+          "$text": "§l釣り餌"
+        }
+      },
+      {
+        "paragraph_f11@how_to_play_common.paragraph": {
+
+          "$text": "ちく鯖で独自に導入された釣り餌を使うことで多くの量の魚が釣れるようになったりエーテルやエンチャント本が釣れやすくなるぞ！"
+
+        }
+      },
+      {
+        "imagsse_b49@how_to_play_common.image": {
+          "texture": "textures\/ui\/tsuriesa",
+          "size": [
+            "100%",
+            "200px"
+          ]
+        }
+      },
+      {
+        "padding_f49@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f49@how_to_play_common.paragraph": {
+
+          "$text": "§d§l釣り餌は釣り餌ガチャ(feedガチャ)から入手できる！"
+
+        }
+      },
+      {
+        "padding_f50@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f50@how_to_play_common.paragraph": {
+
+          "$text": "釣り餌の種類"
+        }
+      },
+      {
+        "padding_f51@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f51@how_to_play_common.paragraph": {
+
+          "$text": "§c§l1.にんじん団子"
+        }
+      },
+      {
+        "padding_f52@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f52@how_to_play_common.paragraph": {
+
+          "$text": "1度に取れる魚の量が増えるぞ！"
+        }
+      },
+      {
+        "imagsse_b48@how_to_play_common.image": {
+          "texture": "textures\/ui\/normal_feed",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "padding_f53@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f53@how_to_play_common.paragraph": {
+
+          "$text": "§b§l2.魔力の玉"
+        }
+      },
+      {
+        "paragraph_f54@how_to_play_common.paragraph": {
+
+          "$text": "各種エーテルを手に入れることができる！"
+        }
+      },
+      {
+        "imagsse_b50@how_to_play_common.image": {
+          "texture": "textures\/ui\/mp_potion_feed",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "padding_f54@how_to_play_common.padding": {}
+      },
+
+      {
+        "padding_f55@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_f55@how_to_play_common.paragraph": {
+
+          "$text": "§d§l3.宝の巻物(赤)/宝の巻物(紫)"
+        }
+      },
+      {
+        "paragraph_f56@how_to_play_common.paragraph": {
+
+          "$text": "エンチャント本を手に入れることができる！レア度は\n\n宝の巻物(赤)→宝の巻物(紫)と段階的に上がっていく、効果が強いエンチャント本が手にはいる！"
+        }
+      },
+      {
+        "imagsse_b52@how_to_play_common.image": {
+          "texture": "textures\/ui\/red_book_feed",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "imagsse_b53@how_to_play_common.image": {
+          "texture": "textures\/ui\/purple_book_feed",
+          "size": [
+            "100%",
+            "50px"
+          ]
+        }
+      },
+      {
+        "padding_f56@how_to_play_common.padding": {}
+      }
+    ]
+  },
+  "newbiome_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "newbiome"
+  },
+  "newbiome_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "newbiome_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f11@how_to_play_common.header": {
+          "$text": "§l追加バイオーム"
+        }
+      },
+      {
+        "paragraph_f11@how_to_play_common.paragraph": {
+
+          "$text": "今期から追加バイオームとして街バイオームとモンスターバイオームが追加された。"
+
+        }
+      },
+      {
+        "header_f12@how_to_play_common.header": {
+          "$text": "§l街バイオーム"
+        }
+      },
+      {
+        "paragraph_f12@how_to_play_common.paragraph": {
+          "$text": "§a§l街バイオームではモンスターが沸かないため、建物・拠点を築くのに適している。ベッドもしくはブルーストーンでリスポーン地点の設定ができる。"
+        }
+      },
+      {
+        "padding_f56@how_to_play_common.padding": {}
+      },
+      {
+        "header_f13@how_to_play_common.header": {
+          "$text": "§lモンスターバイオーム"
+        }
+      },
+      {
+        "paragraph_f13@how_to_play_common.paragraph": {
+          "$text": "§c§lモンスターバイオームにはmobが大量に沸く追加バイオームである。\n\n§bリスポーン地点固定方法\n\nモンスターバイオームはブルーストーンでのみリス地を固定することができる。§cベッドを持ってモンスターバイオームに入った場合はインベントリから消去される。\n\n§d敵を倒すことが苦手な人は★3までで多くのクラフト素材・アイテムを揃えることができる。\n\n§4§lまた、よりダンジョンのようなスリルを楽しみたい人向けに★4以上のレベルのバイオームも追加した。\n★4以上は一人で行くことは非推奨, "
+        }
+      }
+    ]
+  },
+  "search_recipe_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "search_recipe"
+  },
+  "search_recipe_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "search_recipe_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_g12@how_to_play_common.header": {
+          "$text": "§lアイテム検索方法"
+        }
+      },
+      {
+        "paragraph_g12@how_to_play_common.paragraph": {
+
+          "$text": "「アイテムのレシピが分からない！」というときはクラフト画面にあるテキストボックスを活用しよう！\nこのテキストボックスはアイテム検索機能の役割がある。\n\n§d§lここに調べたいアイテムの文字を入力することでアイテムのレシピが一目で分かるようになるぞ！"
+
+        }
+      },
+      {
+        "padding_g12@how_to_play_common.padding": {}
+      },
+      {
+        "imagsse_g12@how_to_play_common.image": {
+          "texture": "textures\/ui\/search_recipe",
+          "size": [
+            "100%",
+            "200px"
+          ]
+        }
+      }
+    ]
+  },
+  "supplementaryinformation_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "supplementaryinformation"
+
+  },
+  "supplementaryinformation_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "supplementaryinformation_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_f3@how_to_play_common.header": {
+          "$text": "班長"
+        }
+      },
+      {
+        "paragraph_f2@how_to_play_common.paragraph": {
+          "$text": "班長とはちく鯖ないにおける班活動において班内での活動を主導する役割を持つ者である。\n班長になるには実はこれといった基準は存在しないが、今までの前例として\nミラティブ(配信者アプリ)の配信者であることが条件であるため、もし班長を希望するなら、同時接続数20人超えてから鯖主に提案することが良しと考える。(嘘)"
+        }
+      }
+    ]
+  }
+}
